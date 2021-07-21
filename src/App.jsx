@@ -1,9 +1,9 @@
-import RemoveMe from './components/RemoveMe';
+import BurgerMenu from './commons/BurgerMenu';
 
 function App() {
   return (
     <div className="App">
-      <RemoveMe />
+      <BurgerMenu />
     </div>
   );
 }
