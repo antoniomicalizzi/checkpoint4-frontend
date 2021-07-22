@@ -1,9 +1,10 @@
-import BurgerMenu from './commons/BurgerMenu';
+// import BurgerMenu from './commons/BurgerMenu';
+import MapPage from './components/views/MapPage';
 
 function App() {
   return (
     <div className="App">
-      <BurgerMenu />
+      <MapPage />
     </div>
   );
 }
