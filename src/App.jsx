@@ -1,10 +1,11 @@
-// import BurgerMenu from './commons/BurgerMenu';
-import MapPage from './components/views/MapPage';
+import MainRouter from './components/router/MainRouter';
+import Mainlayout from './components/layout/Mainlayout';
 
 function App() {
   return (
     <div className="App">
-      <MapPage />
+      <Mainlayout />
+      <MainRouter />
     </div>
   );
 }
